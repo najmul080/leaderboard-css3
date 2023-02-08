@@ -1,0 +1,75 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap');
+  body{
+    font-family: 'Poppins',sans-serif;
+    background-color: #9f9f9f;
+  }
+  main{
+    display: flex;
+    justify-content: center;
+  }
+  .container{
+    background: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+  }
+  .Top-player{
+    margin-bottom: 30px;
+  }
+
+.players{
+    display: grid;
+    gap: 60px;
+    padding-left: 30px;
+    grid-template-columns: repeat(3,1fr);
+}
+.player{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  
+}
+.player img{
+    width: 56px;
+height: 56px;
+}
+.player-title{
+  padding-left: 30px;
+  font-weight: 500;
+font-size: 24px;
+color: #562EFF;
+margin-top: 3px;
+}
+hr{
+  border: 1px solid #D1D1D1;
+}
+.player-title1{
+  padding-left: 30px;
+  font-weight: 500;
+font-size: 24px;
+color: #562EFF;
+padding-top: 30px;
+}
+.blog1{
+  display: flex;
+  padding-left: 30px;
+  padding-top: 31px;
+}
+.blog1 .thamble img{
+  width: 177px;
+height: 117px;
+}
+.blog-info{
+  margin-left: 16px;
+}
+.blog-author a{
+  text-decoration: none;
+}
+.Blogs{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-row-gap: 26px ;
+}
+.blog-author{
+  margin-top: 10px;
+}
